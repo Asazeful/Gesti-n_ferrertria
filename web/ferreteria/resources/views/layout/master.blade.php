@@ -8,11 +8,11 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
-    <title>Hello, world!</title>
+    <title>Ferreteria tu waifu</title>
   </head>
-  <body>
+  <body style="background-color:#4e32a8;">
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
               <a class="navbar-brand" href="{{route('home')}}">
                 <img class="logo" src="{{asset('img/logo.png')}}" />
@@ -22,10 +22,11 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                  <a class="nav-link active" aria-current="page" href="{{route('home')}}">Agregar Consola</a>
-                  <a class="nav-link" href="{{route('ver_consolas')}}">Ver Consolas</a>
-                  <a class="nav-link" href="{{route('ver_juegos')}}">Ver Juegos</a>
-                  <a class="nav-link" href="{{route('agregar_juego')}}">Agregar Juegos</a>
+                  <a class="nav-link active" aria-current="page" href="{{route('home')}}">Inicio</a>
+                  <a class="nav-link" href="{{route('compras')}}">Comprar</a>
+                  <a class="nav-link" href="{{route('login')}}">Login</a>
+                  <a class="nav-link" href="{{route('añadir_herramientas')}}">Añadir herramientas</a>
+                  <a class="nav-link" href="{{route('añadir_materiales')}}">Añadir materiales</a>
                   
                 </div>
               </div>

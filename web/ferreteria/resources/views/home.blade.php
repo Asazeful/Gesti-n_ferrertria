@@ -1,12 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
-</html>
+@include('master')
+@section('contenido')
+    <div class="row justify-content-start">
+        <div class="col-12 col-md-4 col-lg-3 mx-auto">
+            <img src="{{asset('img/waifu_construccion2.png')}}" class="img-fluid" style="max-width: 500px;">
+        </div>
+        <div class="col-12 col-md-4 col-lg-3 mx-auto">
+            <h1>Bienvenido!!</h1>
+        </div>
+        <div class="col-12 col-md-4 col-lg-3 mx-auto">
+            <img src="{{asset('img/waifu_construccion.png')}}" class="img-fluid" style="max-width: 500px;">
+        </div>
+    </div>
+@endsection
